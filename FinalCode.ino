@@ -1,7 +1,7 @@
 #define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID "TMPL6VOQHomYK"
 #define BLYNK_TEMPLATE_NAME "Object Detect"
-#define BLYNK_AUTH_TOKEN "Nqcybpbfpsg9IHc49V6Z1fq0SyHqiwnj"
+#define BLYNK_AUTH_TOKEN "YourBlynkAuthToken"
 
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
@@ -10,8 +10,8 @@
 #include <HardwareSerial.h>
 
 // Wi-Fi credentials
-char ssid[] = "Leon";
-char pass[] = "LEONK1112";
+char ssid[] = "YourWiFiSSID";
+char pass[] = "YourWiFiPassword";
 String Message = "Emergency Button Pressed. Please assist immediately."; // Message for emergency alert
 String Message2 = "Urgent: Obstacle detected near user. Please assist immediately.";
 
